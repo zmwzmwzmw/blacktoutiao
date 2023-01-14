@@ -3,6 +3,7 @@ const path = require('path')
 const theme = path.resolve(__dirname, './src/theme/index.less')
 module.exports = defineConfig({
   transpileDependencies: true,
+  publicPath: '',
   css: {
     loaderOptions: {
       less: {
